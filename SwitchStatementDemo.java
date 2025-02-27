@@ -30,9 +30,8 @@ public class SwitchStatementDemo {
         }
         
         char studentGrade = 'B';
-
         
-    }switch (studentGrade) {
+    switch (studentGrade) {
         case 'A':
             System.out.println("Excellent!");
             break;
@@ -51,5 +50,5 @@ public class SwitchStatementDemo {
         default:
             System.out.println("Invalid grade.");
     }
-    
+    }
 }
